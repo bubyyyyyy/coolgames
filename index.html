@@ -245,7 +245,7 @@ float: left;
 </article>
 <article id="about">
     <h2 style="color:rgb(0, 255, 0)">About Us</h2>
-    <h3 style="color:rgb(0, 255, 0)">One day I was bord, so I decided to learn how to code. I quickly relized that it is really fun and that it is something that I want to do for a job. From the start I have been working on this project. And it is finaly time to share it with the world. Thank you for playing.</h3>
+    <h3 style="color:rgb(0, 255, 0)">One day, I was bored, so I decided to learn how to code. I quickly realized that it is really fun and that it is something that I want to do for a job. From the start, I have been working on this project. And it is finally time to share it with the world. Thank you for playing.</h3>
 </article>
 <footer>
 <a href="#top" title="back to top">
@@ -255,12 +255,12 @@ float: left;
 </div>
 </main>
 <script>
-    var username;
+    let username;
     username = window.prompt("whats your username?");
     document.getElementById("myh1").textContent = "Welcome " + username;
-    var dev = false;
+    let dev = false;
 usernameb.onclick = function(){
-    var newusername;
+    let newusername;
     newusername = window.prompt("whats your username?");
     document.getElementById("myh1").textContent = "Welcome " + newusername;
 }
@@ -294,7 +294,7 @@ function decreaseFontSize() {
                 email.textContent = "my email is: nloomis7743@student.pps.net";
                 statusText.color = "rgb(0, 2255, 0)";
             } else {
-                statusText.textContent = "Waiting for the magic word...";
+                statusText.textContent = "Waiting for the code...";
    
             }
         });
